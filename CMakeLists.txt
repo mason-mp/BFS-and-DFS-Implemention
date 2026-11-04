@@ -8,4 +8,9 @@ include_directories(.)
 add_executable(BFS_and_DFS_Implemention
         src/BFS.cpp
         src/Graph.cpp
-        src/Graph.h)
+        src/DFS.cpp
+        src/main.cpp
+        src/Graph.h
+        src/BFS.h
+        src/DFS.h
+        src/SearchResults.h)
