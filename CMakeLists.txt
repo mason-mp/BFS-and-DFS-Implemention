@@ -5,11 +5,13 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BFS_and_DFS_Implemention
         src/BFS.cpp
+        src/DFS.cpp
         src/Graph.cpp
         src/Graph.h
         src/GraphVisual.cpp
+        src/GraphVisual.h
         src/main.cpp
-        src/GraphVisual.h)
+        )
 
 target_include_directories(BFS_and_DFS_Implemention PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/src
